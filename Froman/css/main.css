@@ -45,25 +45,7 @@ hr {
 #container {
     overflow: hidden;
 }
-.column_left,
-.column_right {
-    width: 45%;
-    float: left;
-    margin: 0 10px 0 0;
-    background-color: #f7f7f7;
-    border: 1px solid #f5f5f5;
-    /* the trick */
-    padding-bottom: 1000px;
-    margin-bottom: -1000px;
-}
 
-.center_column{
-    float: center;
-    margin: 10% 10px 10% 10%;
-       /* the trick */
-    padding-bottom: 1000px;
-    margin-bottom: -1000px;
-}
 .move-margin-left
 {
  margin-left:30px;
@@ -953,6 +935,39 @@ position:relative;
 #blog .blog-post .entry-meta > span > a:hover {
   color: #45aed6;
 }
+
+#social {
+  padding: 100px 0 100px;
+  background: #20222e url(../images/work-process/bg.jpg) no-repeat 0 0;
+  background-size: cover;
+  color: #fff;
+}
+
+#social .column_left,
+#social .column_right {
+    width: 45%;
+    float: left;
+     /* the trick */
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+}
+
+#social .center_column{
+    float: center;
+    margin: 10% 10px 10% 10%;
+       /* the trick */
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+}
+
+#social h2 {
+  color: #fff;
+}
+#social h3 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
 #contact {
   overflow: hidden;
 }
